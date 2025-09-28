@@ -1,0 +1,43 @@
+{
+  "name": "ai-terminal-agent",
+  "version": "1.0.0",
+  "description": "AI Terminal Agent CLI with MERN scaffold",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "concurrently \"npm:server\" \"npm:client\"",
+    "server": "nodemon server/index.js",
+    "client": "npm --prefix client run dev",
+    "test:server": "jest --runInBand --roots server",
+    "test:client": "npm --prefix client run test",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chalk": "^5.3.0",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "events": "^3.3.0",
+    "form-data": "^4.0.0",
+    "mongoose": "^8.4.4",
+    "node-fetch": "^2.6.9",
+    "ora": "^7.0.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.4.2"
+  }
+}

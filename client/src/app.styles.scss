@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, #f0f4ff, #ffffff);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.subtitle {
+  color: #3a3a44;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.featureCard {
+  padding: 1.5rem;
+  border: 1px solid #e1e4f0;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}

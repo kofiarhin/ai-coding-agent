@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "title": "AI Terminal Agent",
+    "subtitle": "Secure, sandboxed automation for developers",
+    "description": "Orchestrate Groq-powered workflows with safe file operations, command execution, and automated self-healing pipelines."
+  },
+  "features": [
+    {
+      "name": "Realtime Coding",
+      "details": "Stream code directly into sandboxed files with live terminal feedback."
+    },
+    {
+      "name": "Testing & Self-Healing",
+      "details": "Automatically run tests and repair failures with iterative retries."
+    },
+    {
+      "name": "Human in the Loop",
+      "details": "Confirm sensitive actions and retain full visibility through audit logs."
+    }
+  ]
+}
